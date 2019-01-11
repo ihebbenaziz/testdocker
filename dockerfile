@@ -1,2 +1,2 @@
-FROM ubuntu
-ENTRYPOINT["echo hhola"]
+FROM ubuntu:14.04  
+CMD ["/bin/date"]
